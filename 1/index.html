@@ -10,6 +10,15 @@
 
         //Your Code Goes Here
 
+        function createDiv() {
+            $(document).ready(function () {
+                let div = $('<div>')
+                div.css('backgroundColor', 'green')
+                div.html('New div tag')
+                $("body").append(div)
+            })
+        }
+
     </script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
